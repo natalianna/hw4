@@ -1,3 +1,8 @@
+// I did some research and found out oscA.setType('Triangle') would create different pitches than 'Square' or 'Sawtooth.' 
+// I created several variables that would be activated the same way, but would perform different things. 
+// The one thing I wanted to do but couldn't was to keep the flickering ellipses from disappearing. I wanted them to overlap.
+// Forgot to write this^^ so I editted in the morning. 
+
 var freqA = 200;
 var freqS = 220;
 var freqD = 250;
