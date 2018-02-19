@@ -1,0 +1,33 @@
+
+    What is an object?
+    
+    An object contains data. For example, you can organize the variables for a single ellipse in once place. 
+    var circle = {
+      x : 20
+      y : 20
+      diameter : 10
+      }
+    function draw () { 
+    ellipse (circle.x, circle.y, circle.diameter, circle.diameter)
+    }
+    How do you access a property of an object?
+    
+    To access the information inside an object, you would go to where the variable is defined. 
+    
+    What is the index of the first item in an array?
+    
+    The first item in an array is index 0 (you begin counting at 0).
+    
+    What syntax can you use to get the third item in an array?
+    
+    var nums = [30,50,70,40]
+    
+    nums[2] 
+    
+    How do you use a variable and a loop to get every item in an array?
+    
+    function draw () {
+    for (var i = 0, i < 4, i++)
+   
+    ellipse (i*100+100,100, nums[i], nums[i]
+    }
